@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="rishabh">
+	<table_structure name="classStudents">
+		<field Field="classCode" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="user" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<key Table="classStudents" Non_unique="1" Key_name="classCode" Seq_in_index="1" Column_name="classCode" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="classStudents" Non_unique="1" Key_name="user" Seq_in_index="1" Column_name="user" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="classStudents" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="2" Avg_row_length="8192" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Create_time="2022-10-01 13:23:13" Update_time="2022-10-02 11:41:49" Collation="utf8mb4_0900_ai_ci" Create_options="" Comment="" />
+	</table_structure>
+</database>
+</mysqldump>

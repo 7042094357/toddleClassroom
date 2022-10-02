@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="rishabh">
+	<table_structure name="activeUsers">
+		<field Field="jwtToken" Type="varchar(500)" Null="NO" Key="" Extra="" Comment="" />
+		<options Name="activeUsers" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="1" Avg_row_length="16384" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Create_time="2022-10-01 09:16:49" Update_time="2022-10-02 15:24:00" Collation="utf8mb4_0900_ai_ci" Create_options="" Comment="" />
+	</table_structure>
+</database>
+</mysqldump>

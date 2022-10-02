@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="rishabh">
+	<table_structure name="users">
+		<field Field="id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(40)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="role" Type="varchar(30)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="contact" Type="varchar(15)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="password" Type="varchar(65)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="createdAt" Type="timestamp" Null="NO" Key="" Default="CURRENT_TIMESTAMP" Extra="DEFAULT_GENERATED" Comment="" />
+		<field Field="updatedAt" Type="timestamp" Null="NO" Key="" Default="CURRENT_TIMESTAMP" Extra="DEFAULT_GENERATED" Comment="" />
+		<field Field="deleted" Type="tinyint" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="email" Type="varchar(40)" Null="NO" Key="UNI" Extra="" Comment="" />
+		<key Table="users" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="users" Non_unique="0" Key_name="email" Seq_in_index="1" Column_name="email" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="users" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="3" Avg_row_length="5461" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="17" Create_time="2022-10-01 07:52:16" Update_time="2022-10-02 15:05:37" Collation="utf8mb4_0900_ai_ci" Create_options="" Comment="" />
+	</table_structure>
+</database>
+</mysqldump>
